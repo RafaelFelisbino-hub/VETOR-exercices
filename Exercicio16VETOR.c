@@ -15,7 +15,7 @@ int main()
 	int temperaturasOutubro[31], i,somaTemperatura = 0, diaInferior = 0;
 	float media;
 
-	for (i = 0; i <= 31; i++) 
+	for (i = 0; i < 31; i++) 
 	{
 		printf("Digite as temperaturas:  ");
 		scanf_s("%i", &temperaturasOutubro[i]);
@@ -25,14 +25,14 @@ int main()
 	media = somaTemperatura / i;
 	printf("A temperatura media e:  %.2f\n", media);
 	
-	for (i = 0; i <= 31; i++)
+	for (i = 0; i < 31; i++)
 	{
 		if (temperaturasOutubro[i] < media)
 		{
 			diaInferior++;
 		}
 	}
-	for (i = 0; i <= 31; i++)
+	for (i = 0; i < 31; i++)
 	{
 		if (temperaturasOutubro[i] > media)
 		{
