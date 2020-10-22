@@ -1,5 +1,5 @@
 /*Criar um algoritmo que defina um vetor para conter 10 nomes de
-candidatos e imprima os nomes das que estão nas posições impares.*/
+candidatos e imprima os nomes das que estÃ£o nas posiÃ§Ãµes impares.*/
 
 #include <stdio.h>
 #include <stdlib.h> 
@@ -18,7 +18,7 @@ int main()
 	}
 	for (i = 0; i < 10; i++) 
 	{
-		if (i % 2 == 0)
+		if (i % 2 == 1)
 		{
 			nomeImpar[150] = strcpy_s(nomeImpar, 150, nome[i]);
 
